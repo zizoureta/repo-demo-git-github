@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "nombre": "Orbit Runner",
+    "precio": 89999,
+    "imagen": "https://placehold.co/500x500/d8f24e/121418?text=ORBIT",
+    "stock": 12
+  },
+  {
+    "id": 2,
+    "nombre": "Dune 90",
+    "precio": 109999,
+    "imagen": "https://placehold.co/500x500/ff6338/121418?text=DUNE+90",
+    "stock": 8
+  },
+  {
+    "id": 3,
+    "nombre": "Mono Court",
+    "precio": 94999,
+    "imagen": "https://placehold.co/500x500/e6e1d7/121418?text=MONO+COURT",
+    "stock": 5
+  },
+  {
+    "id": 4,
+    "nombre": "Volt High",
+    "precio": 124999,
+    "imagen": "https://placehold.co/500x500/121418/f3f0e9?text=VOLT+HIGH",
+    "stock": 3
+  }
+]

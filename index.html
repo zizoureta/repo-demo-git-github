@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SneakerDrop | Tu próximo par empieza acá</title>
+  <meta name="description" content="SneakerDrop: zapatillas que marcan el ritmo.">
+   <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="topline">Envíos gratis a todo el país desde $120.000</div>
+  <header class="site-header">
+    <a class="logo" href="#inicio">SNEAKER<span>DROP</span></a>
+    <nav class="site-nav" aria-label="Navegación principal"><a href="#catalogo">Catálogo</a><a href="#historia">La cultura</a><a href="#contacto">Contacto</a></nav>
+    <button class="cart-trigger" type="button" aria-controls="cart-drawer" aria-expanded="false">Carrito <span class="cart-count">0</span></button>
+  </header>
+  <section class="hero" id="inicio">
+    <div class="hero-copy"><p class="eyebrow">Drop 04 / Primavera 2025</p><h1>Walk<br>your<br>way.</h1><p>Diseñadas para moverte distinto. Las siluetas que van a definir tu próxima historia ya están acá.</p><a class="cta" href="#catalogo">Ver el drop <span>↗</span></a></div>
+    <div class="hero-art"><img class="hero-shoe" src="https://placehold.co/650x500/ff6338/121418?text=SNEAKER+DROP" alt="Zapatilla destacada de SneakerDrop"></div>
+  </section>
+  <div class="marquee"><span>Nuevas formas · Hechas para moverse · Nuevas formas · Hechas para moverse · </span><span>Nuevas formas · Hechas para moverse · Nuevas formas · Hechas para moverse · </span></div>
+  <main id="catalogo">
+    <div class="section-head"><h2>El drop<br>de la semana</h2><p>Cuatro pares. Cero excusas. Encontrá la silueta que acompaña tu propio ritmo.</p></div>
+    <div class="products" aria-live="polite"><p class="catalog-status">Cargando productos...</p></div>
+  </main>
+  <section class="contact-band" id="contacto">
+    <div><h2>Hablemos<br>de kicks.</h2><p>¿Tenés una pregunta sobre talles, envíos o el próximo lanzamiento? Nuestro equipo te responde en menos de 24 horas.</p></div>
+    <form id="contact-form"><label>Nombre<input required name="name" type="text" placeholder="Tu nombre"></label><label>Email<input required name="email" type="email" placeholder="hola@ejemplo.com"></label><label>Mensaje<textarea required name="message" placeholder="¿En qué podemos ayudarte?"></textarea></label><button class="send" type="submit">Enviar mensaje ↗</button></form>
+  </section>
+  <footer id="historia"><div class="footer-top"><a class="logo" href="#inicio">SNEAKER<span>DROP</span></a><div class="socials"><a href="#">Instagram</a><a href="#">TikTok</a><a href="#">Pinterest</a></div></div><div class="footer-bottom"><span>© 2025 SneakerDrop. Todos los derechos reservados.</span><span>Hecho para caminar distinto.</span></div></footer>
+  <aside class="drawer" id="cart-drawer" aria-label="Carrito de compras" aria-hidden="true"><div class="drawer-head"><h2>Tu carrito</h2><button class="close" type="button" aria-label="Cerrar carrito">×</button></div><div class="cart-items"><p class="empty">Todavía no hay nada acá.<br>Sumá un par y empezá el recorrido.</p></div><div class="cart-total"><span>Total</span><span>$0</span></div><button class="checkout" type="button">Finalizar compra</button></aside>
+  <div class="notice" role="status" aria-live="polite"></div>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
