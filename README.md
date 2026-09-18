@@ -161,3 +161,6 @@ La prueba disponible verifica que:
 ## Idea central
 
 MVC permite que cada parte tenga una responsabilidad concreta: el modelo representa los datos, la vista los muestra, el controlador coordina las acciones y el store conserva el estado. Esta separación hace que el proyecto sea más fácil de entender, probar y extender.
+
+
+Desarollado por Ignacio Merelle
